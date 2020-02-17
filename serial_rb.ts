@@ -9,7 +9,7 @@ declare namespace serial_rb {
          */
         //% blockId=serial_readbuffer block="serial_rb|read buffer %length"
         //% help=serial/read-buffer weight=5 
-        //%shim=serial_rb::readBuffer
+        //% shim=serial_rb::readBuffer
         export function readBuffer(length: number): Buffer;
         /**
          * Sends a buffer through Serial connection
