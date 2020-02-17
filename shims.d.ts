@@ -10,7 +10,7 @@ declare namespace serial_rb {
      */
     //% blockId=serial_writebuffer block="serial_rb|write buffer %buffer"
     //% help=serial/write-buffer weight=6
-    //% shim=serial_rb::writeBuffer shim=serial_rb::writeBuffer
+    //% shim=serial_rb::writeBuffer
     function writeBuffer(buffer: Buffer): void;
 
     /**
@@ -19,7 +19,7 @@ declare namespace serial_rb {
      */
     //% blockId=serial_readbuffer block="serial_rb|read buffer %length"
     //% help=serial/read-buffer weight=5
-    //% shim=serial_rb::readBuffer shim=serial_rb::readBuffer
+    //% shim=serial_rb::readBuffer
     function readBuffer(length: int32): Buffer;
 }
 
