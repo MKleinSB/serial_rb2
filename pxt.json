@@ -10,6 +10,7 @@
         "README.md",
         "main.ts",
         "serial_rb.ts",
+        "shims.d.ts",
         "serial_rb.cpp"
     ],
     "testFiles": [
