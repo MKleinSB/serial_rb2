@@ -11,7 +11,7 @@
         "main.ts",
         "serial_rb.ts",
         "shims.d.ts",
-        "enum.d.ts",
+        "enums.d.ts",
         "serial_rb.cpp"
     ],
     "testFiles": [
