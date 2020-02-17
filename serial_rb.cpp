@@ -8,7 +8,6 @@ namespace serial_rb {
     * Sends a buffer through Serial connection
     */
     //% blockId=serial_writebuffer block="serial_rb|write buffer %buffer"
-    //% help=serial/write-buffer weight=6
     //% shim=serial_rb::writeBuffer
     void writeBuffer(Buffer buffer) {
       if (!buffer) return;
@@ -22,7 +21,6 @@ namespace serial_rb {
      * @param length default buffer length, eg: 64
      */
     //% blockId=serial_readbuffer block="serial_rb|read buffer %length"
-    //% help=serial/read-buffer weight=5
     //% shim=serial_rb::readBuffer
     Buffer readBuffer(int length) {
       if (length <= 0)
