@@ -9,7 +9,8 @@
     "files": [
         "README.md",
         "main.ts",
-        "serial_rb.ts"
+        "serial_rb.ts",
+        "serial_rb.cpp"
     ],
     "testFiles": [
         "test.ts"
